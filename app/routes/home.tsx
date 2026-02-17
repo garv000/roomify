@@ -1,5 +1,4 @@
 import type { Route } from "./+types/home";
-// import { Welcome } from "../welcome/welcome";
 import Navbar from "../../components/Navbar";
 import { ArrowRight, ArrowUpRight, Clock, Layers } from "lucide-react";
 import Button from "../../components/ui/Button";
@@ -76,7 +75,7 @@ export default function Home() {
                 <Layers className="icon" />
               </div>
               <h3>Upload your floor plan</h3>
-              <p>Supports JPG, PNG, formats upto 10MB</p>
+              <p>Supports JPG, PNG, formats upto 50MB</p>
             </div>
             <Upload onComplete={handleUploadComplete} />
           </div>
