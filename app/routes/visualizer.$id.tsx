@@ -24,6 +24,7 @@ const VisualizerId = () => {
 
     const link = document.createElement("a");
     link.href = currentImage;
+    link.target = '_blank'
     link.download = `roomify-${id || "design"}.png`;
     document.body.appendChild(link);
     link.click();
