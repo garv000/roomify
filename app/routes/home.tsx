@@ -57,7 +57,7 @@ export default function Home() {
       setProjects(items)
     }
     fetchProjects();
-  }, []);
+  }, [projects]);
   return (
     <div className="home">
       <Navbar />
